@@ -68,36 +68,40 @@ return array(
 	},
 	
 	
-	'GET /registration/(:any?)' => function($plan = false)
+	'GET /registration/(:any)' => function($plan)
 	{
-		$creditcard = false;
-		
-		if($plan == "enhanced" || $plan == "basic" || $plan == "premium"){
-			$creditcard = true;
-		}
+		$creditcard = true;
 		
 		return View::of_layout()->partial('contents', 'home.registration'
 			, array( 'creditcard' => $creditcard 
 					,'plan' => $plan)
 		);
 	},
-	'POST /registration/(:any?)' => array('needs' => 'chargify', function($plan = false)
+	'POST /registration/(:any)' => array('needs' => 'chargify', function($plan)
 	{	
+	    $test = true;
 		$input = Input::get();
+		$chargify = new ChargifyModel($input);
+		$chargify->customer = new ChargifyCustomer(NULL, $test);
+		$chargify->creditcard = new ChargifyCreditCard(NULL, $test);
+		$chargify->subscription = new ChargifySubscription(NULL, $test);
 		
+		echo "<pre>";
+		print_r($chargify->process_subscription());
+		echo "</pre>";
+		/*		
 		if(!$plan){
 			$plan = $input['plan'];
 		}
 		
 		$creditcard = $input['creditcard'];
 		
-		$connect = new ChargifyConnector();
 		
 		return View::of_layout()->partial('contents', 'home.registration'
 			, array( 'creditcard' => $creditcard 
 					,'plan' => $plan)
 		);
-		
+		*/		
 	}),
 
 );

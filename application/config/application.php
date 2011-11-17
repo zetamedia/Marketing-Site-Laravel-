@@ -11,7 +11,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/mslaravel/public',
+	'url' => 'http://localhost/Marketing-Site-Laravel-/public',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -25,7 +25,7 @@ return array(
 	|
 	*/
 
-	'index' => 'index.php',
+	'index' => '',
 
 	/*
 	|--------------------------------------------------------------------------

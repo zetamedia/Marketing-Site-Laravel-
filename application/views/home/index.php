@@ -15,7 +15,7 @@
                 <p>Build your reputation and track record faster than your competition </p>
                 <p>Share hundreds of great customer experiences on your website </p>
                 <p>Empower and grow word-of-mouth marketing for your business</p>
-                <div class="take-tour-btn" onclick="window.location='tour.php'"></div>
+                <div class="take-tour-btn" onclick="window.location='tour'"></div>
             </div>
             <div class="discover-text"></div>
             <div id="banner-right">

@@ -31,7 +31,9 @@
 		var password2 	= $('input[name=password2]');
 		password2.parent().find('span.passwordMessage').remove();
 		
-		if(password1.val() != password2.val()){
+		if(password1.val().length < 6 || password2.val().length < 6){
+			password2.parent().append('<span class="passwordMessage failed">Minimum of 6 characters</span>');
+		}else if(password1.val() != password2.val()){
 			password2.parent().append('<span class="passwordMessage failed">Password don\'t match!</span>');
 		}else{
 			password2.parent().append('<span class="passwordMessage success">Password Matched!</span>');
@@ -245,6 +247,20 @@
 	<div id="mainbodycontent">
 		<div id="registration">
         	<div id="leftcontents">
+            	<div>
+					<?php
+                    if($plan == "free"){
+                        echo HTML::image('img/plan_free.png');
+                    }elseif($plan == "basic"){
+                        echo HTML::image('img/plan_basic.png');
+                    }elseif($plan == "enhanced"){
+                        echo HTML::image('img/plan_enhanced.png');
+                    }elseif($plan == "premium"){
+                        echo HTML::image('img/plan_premium.png');
+                    }
+                    ?>
+                    <br /><br />                        
+                </div>
             	<?=Form::open('registration/'.$plan, 'POST', array('onsubmit'=>'return validate_form()'))?>
             	<div class="leftcontentblock">
                 	<h2><span>1.</span> Create your <span>36</span>Stories Account</h2>
