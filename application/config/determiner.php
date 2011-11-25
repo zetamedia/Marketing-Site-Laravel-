@@ -18,6 +18,12 @@ class Determiner {
            $obj->db   = 'localhost';
            return $obj;
        }
+
+       if($this->http_host == 'localhost/Marketing-Site-Laravel-') {
+           $obj->host = 'http://localhost/Marketing-Site-Laravel-/public',
+           $obj->db   = 'localhost';
+           return $obj;
+       }
 	   
        //DEV
        if($this->http_host == 'dev.gearfish.com') {
