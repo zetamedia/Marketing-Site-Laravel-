@@ -1,5 +1,8 @@
 <?php
 
+require_once 'determiner.php';
+$determine = new Determiner;  
+
 return array(
 
 	/*
@@ -14,7 +17,7 @@ return array(
 	|
 	*/
 
-	'default' => 'sqlite',
+	'default' => 'master',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -49,6 +52,25 @@ return array(
 			'driver'   => 'sqlite',
 			'database' => 'application',
 		),
+
+		'master' => array(
+			'driver'   => 'mysql',
+			'host'     => $determine->d->db,
+			'database' => 's36',
+			'username' => 'root',
+			'password' => 'brx4*svv',
+			'charset'  => 'utf8',
+		),
+
+		'slave' => array(
+			'driver'   => 'mysql',
+			'host'     => $determine->d->db,
+			'database' => 's36',
+			'username' => 'root',
+			'password' => 'brx4*svv',
+			'charset'  => 'utf8',
+		),
+
 
 		'mysql' => array(
 			'driver'   => 'mysql',

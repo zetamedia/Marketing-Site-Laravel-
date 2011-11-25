@@ -1,5 +1,8 @@
 <?php
 
+require_once 'determiner.php';
+$determine = new Determiner;  
+
 return array(
 
 	/*
