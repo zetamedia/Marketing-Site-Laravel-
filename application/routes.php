@@ -103,5 +103,13 @@ return array(
 		);
 		*/		
 	}),
+	
+	'GET /testmodel' => function(){
+		
+		$user = new UserAccount;
+		
+		print_r($user->get_user());
+		
+	}
 
 );

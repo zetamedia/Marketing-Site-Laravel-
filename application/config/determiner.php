@@ -19,10 +19,11 @@ class Determiner {
            return $obj;
        }
 
-       if($this->http_host == 'localhost/Marketing-Site-Laravel-') {
-           $obj->host = 'http://localhost/Marketing-Site-Laravel-/public',
+       if($this->http_host == 'localhost') {
+           $obj->host = 'http://localhost/Marketing-Site-Laravel-/public';
            $obj->db   = 'localhost';
-           return $obj;
+		   return $obj;
+		   
        }
 	   
        //DEV

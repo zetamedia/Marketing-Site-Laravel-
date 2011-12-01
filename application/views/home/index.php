@@ -4,7 +4,7 @@
     	<div id="mainbannercontent">
         	<div id="banner-left">
             	<br /><br />
-            	<h1 class="larger-text">Get powerful, authentic, <br /> endorsements every day.</h1>
+            	<h1 class="larger-text">Get powerful, authentic, test <br /> endorsements every day.</h1>
                 <!--
                 <ul>
                 	<li>Build your reputation and track record faster than your competition</li>
