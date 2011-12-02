@@ -73,7 +73,7 @@ a img{border:none;}
 	#banner-left p{line-height:20px;font-size:14px;margin-left:3px;}
 	#banner-left h1{font-family:Georgia, "Times New Roman", Times, serif;color:#32404b;font-size:35px;font-weight:normal;}
 	#banner-left h1 em{color:#295f88;}
-	#banner-left h1.larger-text{font-size:40px;}
+	#banner-left h1.larger-text{font-size:33px;}
 	#banner-left ul{list-style:none;margin-top:20px;}
 	#banner-left ul li{background:url(../img/list-arrow.png) left center no-repeat;padding:0px 0px 7px 30px;color:#2c3237;}
 	#banner-left .take-tour-btn{width:198px;height:50px;background:url(../img/take-tour-btn.png) top no-repeat;margin-top:10px;	}
@@ -84,7 +84,7 @@ a img{border:none;}
 	#banner-right .media-box-bg .media-box{width:393px;height:260px;background:#FFF;margin:0 auto;border:1px solid #a9aaaa;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
 	#banner-right .media-box-bg .media-box .banner-ribbon{width:96px;height:58px;background:url(../img/banner-ribbon-updated.png);position:absolute;right:0;top:0;z-index:1000;}
 	#banner-right .media-box-bg .media-box .slider{width:363px;height:226px;margin:0 auto;top:17px;}
-	
+	#banner-right .media-box-bg .media-box #video{text-align:center;font-size:30px;font-family:"Times New Roman", Times, serif;}
 #mainbodywrapper{width:100%;height:auto;}
 #mainbodycontent{width:880px;height:auto;margin:0 auto;}
 

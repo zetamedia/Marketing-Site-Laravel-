@@ -4,7 +4,7 @@
     	<div id="mainbannercontent">
         	<div id="banner-left">
             	<br /><br />
-            	<h1 class="larger-text">Get powerful, authentic, test <br /> endorsements every day.</h1>
+            	<h1 class="larger-text">Showcase powerful, authentic, <br />endorsements every day.</h1>
                 <!--
                 <ul>
                 	<li>Build your reputation and track record faster than your competition</li>
@@ -34,7 +34,7 @@
                             </div>
                             -->
                             <div id="video">
-                            	<iframe width="363" height="226" src="http://www.youtube.com/embed/RQBuTxKLKKY" frameborder="0" allowfullscreen></iframe>
+                            	<?=HTML::image('img/video-coming-soon.jpg')?>
                             </div>
                             
                         </div>
@@ -65,7 +65,7 @@
             	<div class="box-contents">
                 	<div class="box-title one-line">Get Viral On The Social Web.</div>
                     <div class="box-thumb"><?=HTML::image('img/home-image-2.png')?></div>
-                    <div class="box-info"><br />Get your business featured and talked about on your customer'ssocial profiles every day.<br /><br /></div>
+                    <div class="box-info"><br />Get your business featured and talked about on your customer's social profiles every day.<br /><br /></div>
                     <div class="box-link"><a href="#">learn more</a></div>
                 </div>
             </div>
