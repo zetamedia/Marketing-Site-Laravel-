@@ -74,18 +74,18 @@ a img{border:none;}
 	#banner-left p{line-height:20px;font-size:14px;margin-left:3px;}
 	#banner-left h1{font-family:Georgia, "Times New Roman", Times, serif;color:#32404b;font-size:35px;font-weight:normal;}
 	#banner-left h1 em{color:#295f88;}
-	#banner-left h1.larger-text{font-size:33px;}
+	#banner-left h1.larger-text{font-size:32px;}
 	#banner-left ul{list-style:none;margin-top:20px;}
 	#banner-left ul li{background:url(../img/list-arrow.png) left center no-repeat;padding:0px 0px 7px 30px;color:#2c3237;}
 	#banner-left .take-tour-btn{width:198px;height:50px;background:url(../img/take-tour-btn.png) top no-repeat;margin-top:10px;	}
 	#banner-left .take-tour-btn:hover{background-position:bottom;cursor:pointer;}
-	
+	#banner-left p{font-size:13px;text-align:justify}
 	#banner-right{width:415px;float:left;height:320px;}
 	#banner-right .media-box-bg{width:455px;height:260px;background:url(../img/mediaboxbg.png) no-repeat;position:absolute;top:33px;}
 	#banner-right .media-box-bg .media-box{width:393px;height:260px;background:#FFF;margin:0 auto;border:1px solid #a9aaaa;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
 	#banner-right .media-box-bg .media-box .banner-ribbon{width:96px;height:58px;background:url(../img/banner-ribbon-updated.png);position:absolute;right:0;top:0;z-index:1000;}
 	#banner-right .media-box-bg .media-box .slider{width:363px;height:226px;margin:0 auto;top:17px;}
-	#banner-right .media-box-bg .media-box #video{text-align:center;font-size:30px;font-family:"Times New Roman", Times, serif;}
+	
 #mainbodywrapper{width:100%;height:auto;}
 #mainbodycontent{width:880px;height:auto;margin:0 auto;}
 
@@ -253,7 +253,6 @@ br.clear,div.clear{clear:both;width:100%;height:0px;}
 #registration #leftcontents .leftcontentblock h2{font-family:Georgia, "Times New Roman", Times, serif;font-size:22px;font-weight:normal;margin-bottom:15px;color:#313234;}
 #registration #leftcontents .leftcontentblock h2 span{color:#48627b;}
 #registration #leftcontents .leftcontentblock table{width:100%;}
-#registration #leftcontents .leftcontentblock table tr td{position:relative;}
 #registration #leftcontents .leftcontentblock table tr td.label{padding:10px 2px;width:100px;color:#2b3743;}
 #registration #leftcontents .leftcontentblock table tr td strong.secure-ico{background:url(../img/padlock.jpg) left center no-repeat;padding:5px 0px 5px 30px;}
 #registration #leftcontents .leftcontentblock p{color:#2b3743;margin:25px 0px;line-height:18px;}
@@ -289,6 +288,7 @@ br.clear,div.clear{clear:both;width:100%;height:0px;}
 #tac-page-contents p{padding:10px 0px;}
 #tac-page-contents ol{margin:8px 10px 8px 26px;}
 #tac-page-contents ol li{padding:7px 0px;}
+
 /* login page */
 #login{width:880px;margin:30px 0px 200px;}
 #login-box{width:408px;border:1px solid #c9cacc;margin:0 auto;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#c2c3c4 url(../img/login-box-bg.png) repeat-x top;
@@ -301,15 +301,8 @@ input.login-btn:hover{background-position:bottom center;cursor:pointer;}
 input.reg-text{padding:7px 10px;width:290px;border:1px solid #d1d1d1;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;color:#828284;}
 input.login-text{padding:7px 10px;width:240px;border:1px solid #d1d1d1;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;color:#828284;}
 select.reg-select{padding:7px 10px;width:310px;border:1px solid #d1d1d1;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;color:#828284;}
-input.medium{width:187px;}
 select.medium{width:209px;}
 select.small{width:100px;}
 select option{padding:7px 10px;}
-input.small{width:60px;}
-.errorInput{background:#fff0be;border:1px solid #e9a555 !important;color:#7d7c79 !important;}
 
 .inputs{padding-left:30px;}
-
-/* password */
-.failed{margin-top:10px;padding:4px 5px 4px 20px;background:url(../img/error-ico.png) no-repeat left;color:#b20707;font-size:11px;}
-.success{margin-top:10px;padding:4px 5px 4px 20px;background:url(../img/check-ico.png) no-repeat left;color:#67b72c;font-size:11px;}

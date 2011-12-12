@@ -4,7 +4,7 @@
     	<div id="mainbannercontent">
         	<div id="banner-left">
             	<br /><br />
-            	<h1 class="larger-text">Showcase powerful, authentic, <br />endorsements every day.</h1>
+            	<h1 class="larger-text">Showcase powerful, authentic, <br />endorsements for your business</h1>
                 <!--
                 <ul>
                 	<li>Build your reputation and track record faster than your competition</li>
@@ -12,9 +12,10 @@
                 </ul>
                 -->
                 <br />
-                <p>Build your reputation and track record faster than your competition </p>
-                <p>Share hundreds of great customer experiences on your website </p>
-                <p>Empower and grow word-of-mouth marketing for your business</p>
+                <p> 
+                    Share hundreds of great customer experiences, build your track record faster than your competition, and empower word-of-mouth marketing for your brand every single day.
+                </p>
+                <br />
                 <div class="take-tour-btn" onclick="window.location='tour'"></div>
             </div>
             <div class="discover-text"></div>
@@ -57,7 +58,7 @@
             	<div class="box-contents">
                 	<div class="box-title one-line">Powerful Feedback Control</div>
                     <div class="box-thumb"><?=HTML::image('img/home-image-1.png')?></div>
-                    <div class="box-info">Intuitive, simple and 1-click features allows you to get your endorsements published instantly or hidden seamlessly.<br /><br /></div>
+                    <div class="box-info"><br />Intuitive, simple and 1-click features allows you to get your endorsements published instantly or hidden seamlessly.<br /></div>
                     <div class="box-link"><a href="#">learn more</a></div>
                 </div>
             </div>
@@ -73,7 +74,7 @@
             	<div class="box-contents">
                 	<div class="box-title one-line">Complete Feedback Analytics</div>
                     <div class="box-thumb"><?=HTML::image('img/home-image-3.png')?></div>
-                    <div class="box-info">Our easy to understand metrics allows you to quickly discover weak spots and pain points in your website at a glance and resolve problems rapidly.</div>
+                    <div class="box-info"><br />Simple metrics allow you to discover pain points in your website rapidly and resolve problems fast.<br /><br /></div>
                     <div class="box-link"><a href="#">learn more</a></div>
                 </div>
             </div>
