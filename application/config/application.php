@@ -14,7 +14,7 @@ return array(
 	|
 	*/
 
-//	'url' => 'http://localhost/Marketing-Site-Laravel-/public',
+	//'url' => 'http://localhost/Marketing-Site-Laravel-/public',
 	'url' => 'http://beta.36stories.com',
 	/*
 	|--------------------------------------------------------------------------

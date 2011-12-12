@@ -61,6 +61,7 @@ a img{border:none;}
 	#top-nav #login-block:hover{background-position:bottom;}
 			 #login-block a{text-shadow:#333 0px -1px;color:#FFF;padding:3px 20px;}
 	#top-nav #social-icon-block{width:75px;float:left;text-align:right;}			 
+	
 #mainbannerwrapper{width:100%;height:320px;background:url(../img/banner-bg.png) repeat-x top;}			 
 #mainsubbannerwrapper{widht:1068px;height:320px;background:url(../img/sub-banner-bg.jpg) no-repeat top center;margin:0 auto;}
 #mainbannercontent{width:880px;height:320px;margin:0 auto;}
