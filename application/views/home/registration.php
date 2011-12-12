@@ -444,7 +444,7 @@
                         <br />
                         We will email you a receipt each time your card is charged.
                     </p>
-                    <p>By clicking Create Account you agree to the <a href="#">Terms and Conditions</a>, <a href="#">Privacy</a>, and <a href="#">Refund policies</a></p>
+                    <p>By clicking Create Account you agree to the <?=HTML::link('/tac', 'Terms and Conditions')?>, <?=HTML::link('/privacy', 'Privacy')?>, and <a href="#">Refund policies</a></p>
                 </div>
                 <?php endif ?>
                 <?=Form::submit('',array('class'=>'create-account-btn'))?>
