@@ -88,7 +88,7 @@
 <div id="footerwrapper">
     <div id="footercontents">
     	<div class="copyright">
-    		<span>© 2011 36Stories. All Rights Reserved.</span>  <a href="#">Terms</a>  | <a href="#">Privacy</a> | <a href="#">Site Map</a>
+    		<span>© 2011 36Stories. All Rights Reserved.</span>  <?=HTML::link('/tac', 'Terms')?>  | <?=HTML::link('/privacy', 'Privacy')?> | <a href="#">Site Map</a>
         </div>
         <div class="socialicons">
         	<div class="text">Stay in touch</div>

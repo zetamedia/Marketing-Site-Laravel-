@@ -49,7 +49,7 @@ a img{border:none;}
 	#mainlogo{width:160px;height:44px;position:absolute;top:4px;left:0px;}
 	#top-nav{width:720px;position:absolute;right:0px;text-align:right;top:18px;}
 	
-	#top-nav #nav-block{width:615px;float:left;padding-right:25px;}
+	#top-nav #nav-block{width:550px;float:left;padding-right:25px;}
 			 #nav-block ul{list-style:none;margin:0px;padding:0px;font-size:11px;}
 			 #nav-block ul li{display:inline;background:url(../img/top-nav-pipe.png) no-repeat right center;padding:0px 14px 0px 10px;margin:0px;}
 		  	 #nav-block ul li:last-child{background:none;}
@@ -57,9 +57,10 @@ a img{border:none;}
 			 #nav-block ul li a:hover{color:#787e83;}
 			 #nav-block ul li a.selected:hover{color:#404549;}
 	
-	#top-nav #login-block{width:70px;float:right;height:15px;text-align:center;font-size:9px;background:url(../img/login-button.png) top center no-repeat;padding-top:2px;}
+	#top-nav #login-block{width:70px;float:left;height:15px;text-align:center;font-size:9px;background:url(../img/login-button.png) top center no-repeat;padding-top:2px;}
 	#top-nav #login-block:hover{background-position:bottom;}
 			 #login-block a{text-shadow:#333 0px -1px;color:#FFF;padding:3px 20px;}
+	#top-nav #social-icon-block{width:75px;float:left;text-align:right;}			 
 #mainbannerwrapper{width:100%;height:320px;background:url(../img/banner-bg.png) repeat-x top;}			 
 #mainsubbannerwrapper{widht:1068px;height:320px;background:url(../img/sub-banner-bg.jpg) no-repeat top center;margin:0 auto;}
 #mainbannercontent{width:880px;height:320px;margin:0 auto;}
@@ -281,6 +282,13 @@ br.clear,div.clear{clear:both;width:100%;height:0px;}
 #company-page-contents .company-profile-block .profile-details{width:650px;float:right;}
 #company-page-contents .company-profile-block .profile-details h2{color:#2c3844;font-size:14px;margin:5px 0px;}
 #company-page-contents .company-profile-block .profile-details p{margin:15px 0px;line-height:18px;}
+
+/* terms and conditions page & privacy policy page */
+#tac-page-contents{width:880px;margin:30px 0px;color:#333435;padding:10px;font-size:13px;line-height:20px;}
+#tac-page-contents h3{margin:10px 0px;}
+#tac-page-contents p{padding:10px 0px;}
+#tac-page-contents ol{margin:8px 10px 8px 26px;}
+#tac-page-contents ol li{padding:7px 0px;}
 /* login page */
 #login{width:880px;margin:30px 0px 200px;}
 #login-box{width:408px;border:1px solid #c9cacc;margin:0 auto;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#c2c3c4 url(../img/login-box-bg.png) repeat-x top;

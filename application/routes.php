@@ -44,30 +44,66 @@ return array(
 	|		}
 	|
 	*/
-
+	
+	/*----------------
+		Home Page
+	*/
 	'GET /' => function()
 	{
 		return View::of_layout()->partial('contents', 'home.index');
 	},
 	
+	/*----------------
+		Tour Page
+	*/
 	'GET /tour' => function()
 	{
 		return View::of_layout()->partial('contents', 'home.tour');
 	},
+	
+	/*----------------
+		Pricing
+	*/
 	'GET /pricing' => function()
 	{
 		return View::of_layout()->partial('contents', 'home.pricing');
 	},
+	
+	/*----------------
+		Company Page
+	*/
 	'GET /company' => function()
 	{
 		return View::of_layout()->partial('contents', 'home.company');
 	},
+	
+	/*----------------
+		Terms and Conditions
+	*/
+	'GET /tac' => function()
+	{
+		return View::of_layout()->partial('contents', 'home.tac');
+	},
+	
+	/*----------------
+		Privacy Policy
+	*/
+	'GET /privacy' => function()
+	{
+		return View::of_layout()->partial('contents', 'home.privacy');
+	},
+	
+	/*----------------
+		Login Page
+	*/
 	'GET /login' => function()
 	{
 		return View::of_layout()->partial('contents', 'home.login');
 	},
 	
-	
+	/*----------------
+		Registration Page
+	*/
 	'GET /registration/(:any)' => function($plan)
 	{
 		$creditcard = true;
@@ -77,6 +113,7 @@ return array(
 					,'plan' => $plan)
 		);
 	},
+	
 	'POST /registration/(:any)' => array('needs' => 'chargify', function($plan)
 	{	
 	    $test = true;
@@ -104,6 +141,9 @@ return array(
 		*/		
 	}),
 	
+	/*----------------
+		Testing
+	*/
 	'GET /testmodel' => function(){
 		
 		$user = new UserAccount;
