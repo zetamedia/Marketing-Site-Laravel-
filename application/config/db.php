@@ -55,7 +55,7 @@ return array(
 
 		'master' => array(
 			'driver'   => 'mysql',
-			'host'     => $determine->d->db,
+			'host'     => 'localhost',//$determine->d->db,
 			'database' => 's36',
 			'username' => 'root',
 			'password' => 'brx4*svv',
@@ -64,7 +64,7 @@ return array(
 
 		'slave' => array(
 			'driver'   => 'mysql',
-			'host'     => $determine->d->db,
+			'host'     => 'localhost',//$determine->d->db,
 			'database' => 's36',
 			'username' => 'root',
 			'password' => 'brx4*svv',
