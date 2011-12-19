@@ -50,7 +50,8 @@ return array(
 	*/
 	'GET /' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.index');
+        return View::make('home.index');
+		//return View::of_layout()->partial('contents', 'home.index');
 	},
 	
 	/*----------------
