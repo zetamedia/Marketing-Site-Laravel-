@@ -182,19 +182,19 @@ br.clear,div.clear{clear:both;width:100%;height:0px;}
 #tour-box #tour-leftbar .bar .bar-body ul li ul.bar-ico-folder{background:url(../img/ico-small-folder.png) top left no-repeat;}
 #tour-box #tour-leftbar .bar .bar-body ul li ul.bar-ico-thumb{background:url(../img/ico-small-thumb.png) top left no-repeat;}
 #tour-box #tour-leftbar .bar .bar-body ul li h3{color:#49637d;font-size:13px;}
-#tour-box #tour-leftbar .bar .bar-body ul li ul li{border:none;font-size:11px;margin:3px 5px 6px 0px;line-height:17px;}
+#tour-box #tour-leftbar .bar .bar-body ul li ul li{border:none;font-size:11px;margin:3px 5px 6px 0px;line-height:1.2em;}
 #tour-box #tour-leftbar .bar .bar-body ul li ul h3{padding:6px 0px;}
 #tour-box #tour-leftbar .bar .bar-foot{background:url(../img/bar-footbg.png);width:268px;height:6px;}
 
 #tour-box #container{width:612px;float:left;}
 #tour-box #container .container-box{}
 #tour-box #container .container-box .main-title{width:612px;background:url(../img/tour-main-shadow.png) bottom left no-repeat;}
-#tour-box #container .container-box .main-title .main-title-image{width:260px;float:left;text-align:center;padding:0px 20px;height:220px;}
-#tour-box #container .container-box .main-title .main-title-text{width:312px;float:left;padding:20px 0px 10px;}
+#tour-box #container .container-box .main-title .main-title-image{width:58px;float:left;text-align:center;padding:15px 0px 0px 30px;}
+#tour-box #container .container-box .main-title .main-title-text{width:524px;float:left;padding:15px 0px 25px;}
 #tour-box #container .container-box .main-title .main-title-text h1{color:#1d3f61;font-size:34px;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;margin-bottom:10px;line-height:34px;}
 #tour-box #container .container-box .main-title .main-title-text p{line-height:20px;color:#4c5761;}
 #tour-box #container .container-box .sub-info{padding:20px 5px 20px 30px;background:url(../img/subinfo-shadow.png) bottom center no-repeat;}
-#tour-box #container .container-box .sub-info .subinfo-image{width:262px;float:left;text-align:center;padding:10px 0px 20px;height:160px;}
+#tour-box #container .container-box .sub-info .subinfo-image{width:262px;float:left;text-align:center;padding:10px 0px 20px;min-height:140px;}
 #tour-box #container .container-box .sub-info .left{text-align:left;}
 #tour-box #container .container-box .sub-info .right{text-align:right;}
 #tour-box #container .container-box .sub-info .subinfo-text{width:315px;float:left;}

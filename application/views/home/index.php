@@ -13,9 +13,9 @@
                 -->
                 <br />
                 <p> 
-                    Share hundreds of great customer experiences, build your track record faster than your competition, and empower word-of-mouth marketing for your brand every single day.
+                    Share hundreds of great customer experiences and testimonials, plus gain instant credibility with your audience and buyers. Start building your track record faster than your competition, and empower word-of-mouth marketing for your brand every single day. 
                 </p>
-                <br />
+              
                 <div class="take-tour-btn" onclick="window.location='tour'"></div>
             </div>
             <div class="discover-text"></div>
