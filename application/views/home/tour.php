@@ -302,7 +302,7 @@ function onAfter(curr, next, opts, fwd) {
                 <div class="container-box">
                 	<div class="main-title">
                     	<div class="main-title-image">
-                        	<?=HTML::image('img/ico-small-folder.png')?>
+                        	<?=HTML::image('img/tourmainimage4.png')?>
                             <br class="clear" />
                         </div>
                         <div class="main-title-text">
@@ -352,7 +352,7 @@ function onAfter(curr, next, opts, fwd) {
                 <div class="container-box">
                 	<div class="main-title">
                     	<div class="main-title-image">
-                        	<?=HTML::image('img/ico-small-thumb.png')?>
+                        	<?=HTML::image('img/tourmainimage5.png')?>
                             <br class="clear" />
                         </div>
                         <div class="main-title-text">
