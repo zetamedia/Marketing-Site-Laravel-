@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome | 36Stories | Let your customers speak about you.</title>
-		<?=HTML::style('css/style.css')?> 
+		<?=HTML::style('css/s36style.css')?> 
         <?=HTML::style('css/slider.css')?>
        
         <?=HTML::script('js/jquery.js')?>
