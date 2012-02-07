@@ -14,14 +14,8 @@ return array(
 	|
 	*/
 
-<<<<<<< HEAD
-	'url' => 'http://localhost/Marketing-Site-Laravel-/public',
-	//'url' => 'http://beta.36stories.com',
-	
-=======
 	//'url' => 'http://localhost/Marketing-Site-Laravel-/public',
 	'url' => 'http://36stories.com',
->>>>>>> 09cd6a27d4f16eeb22d71127ce0d4aed89eacca2
 	/*
 	|--------------------------------------------------------------------------
 	| Application Index
