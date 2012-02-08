@@ -66,17 +66,17 @@ function onAfter(curr, next, opts, fwd) {
                         	<li id="1" class="selected"><div class="the-arrow-right"></div>
                             	<ul class="bar-ico-bubble">
                                 	<h3>Powerful Feedback Control</h3>
-                                	<li>Publish powerful customer endorsements to your website with a single click.</li>
+                                	<li>Publish powerful endorsements to your website with a single click.</li>
                                     <li>Feature endorsements that truly matter.</li>
                                     <li>File negative feedback away or send it to someone else.</li>
-                                    <li>Get immediate dialogue. Respond quickly.</li>
-                                    <li>We've already asked "Could we please..?"</li>
+                                    <li>Respond instantly to feedback</li>
+                                    <li>Permission based endorsements</li>
                                 </ul>
                             </li>
                             <li id="2"><div class="the-arrow-right"></div>
                             	<ul class="bar-ico-pie">
                                 	<h3>Complete Feedback Analytics</h3>
-                                	<li>Powerful insight. At a glance.</li>
+                                	<li>Powerful insight at a glance</li>
                                     <li>Get strategic feedback where it matters most.</li>
                                 </ul>
                             </li>
@@ -85,7 +85,7 @@ function onAfter(curr, next, opts, fwd) {
                                 	<h3>Get Viral On The Social Web.</h3>
                                 	<li>Word of mouth marketing - on steroids.</li>
                                     <li>Authentic Profiles.</li>
-                                    <li>Show them all off. In style.</li>
+                                    <li>Show them all off in style</li>
                                 </ul>
                             </li>
                             <li id="4"><div class="the-arrow-right"></div>
@@ -128,7 +128,7 @@ function onAfter(curr, next, opts, fwd) {
                     </div>
                     <div class="sub-info">
                         <div class="subinfo-text">
-                        	<h2>Publish powerful customer endorsements to your website with a single click</h2>
+                        	<h2>Publish powerful endorsements to your website with a single click</h2>
                             <p>Instantly publish a positive feedback into a testimonial that displays throughout your site with a single click. </p>
 							<p>Our simple, intuitive admin panel is an absolute breeze to use – it allows you or an assigned team member to easily work through feedback to publish endorsements or to file away feedback. There's no complicated menus, no convoluted processes, no complex permissions. No HTML codes or images to worry about either. </p>
                             <p>Review your feedback and just click Publish. </p>
@@ -170,7 +170,7 @@ function onAfter(curr, next, opts, fwd) {
                         	<?=HTML::image('img/toursubimage15.png')?>
                         </div>
                         <div class="subinfo-text">
-                        	<h2>Get immediate dialogue. Respond quickly</h2>
+                        	<h2>Respond instantly to feedback</h2>
                             <p>Save time by responding instantly to feedback without ever having to open your email client.</p>
                             <p>Thank your users instantly with configurable automatic replies, preset templates and close the feedback loop, fostering a closer relationship with your customers.</p>
 							<br class="clear" />                       
@@ -179,7 +179,7 @@ function onAfter(curr, next, opts, fwd) {
                     </div>
                     <div class="sub-info last">
                         <div class="subinfo-text">
-                        	<h2>We've already asked "Could we please..?"</h2>
+                        	<h2>Permission based endorsements</h2>
                             <p>It's only polite to ask for complete consent and not to publish feedback without your user's permission. 36Stories has a permission based system where you get the green light from your customers to use their feedback before you even see it in your inbox. You'll have the relief of publishing endorsements public, knowing that your customers have already given their 'okay'.</p>
 							<p>We also help you ask for complete permission to use their quotes in your other marketing materials (e.g. brochures). Use quotes that make the biggest impact for your business, or use the entire endorsement in its entirety. </p>
 							<br class="clear" />                       
@@ -209,7 +209,7 @@ function onAfter(curr, next, opts, fwd) {
                     </div>
                     <div class="sub-info">
                         <div class="subinfo-text" style="width:292px">
-                        	<h2>Powerful insight. At a glance</h2>
+                        	<h2>Powerful insight at a glance</h2>
                             <p>What do your visitors and returning customers feel and want? With 36Stories, you get your answers quick. </p>
 							<p>Discover whether your product is overpriced, or not as feature-rich as your competitors. Are people having a problem with your site speed? Why are potential customers abandoning your shopping cart? Get out of the dark with rapid feedback with our insight dashboard.</p>
 							<br class="clear" />                       
@@ -288,7 +288,7 @@ function onAfter(curr, next, opts, fwd) {
                     <div class="sub-info last">
                     	
                         <div class="subinfo-text">
-                        	<h2>Show them all off. In style</h2>
+                        	<h2>Show them all off in style</h2>
                             <p>There's nothing like showing your visitors your entire collection of endorsements, whether it's 50 or a hundred thousand. You can display every single one of them when visitors select 'View all'. Click ours for an example.</p>
 							<br class="clear" />                       
                         </div>
