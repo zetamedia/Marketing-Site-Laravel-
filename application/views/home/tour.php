@@ -227,13 +227,13 @@ function onAfter(curr, next, opts, fwd) {
             <br class="clear" />
           </div>
           <div class="sub-info">
-            <div class="subinfo-text" style="width:292px">
+            <div class="subinfo-text" style="width:252px">
               <h2>Powerful insight at a glance</h2>
               <p>What do your visitors and returning customers feel and want? With 36Stories, you get your answers quick. </p>
               <p>Discover whether your product is overpriced, or not as feature-rich as your competitors. Are people having a problem with your site speed? Why are potential customers abandoning your shopping cart? Get out of the dark with rapid feedback with our insight dashboard.</p>
               <br class="clear" />
             </div>
-            <div class="subinfo-image right" style="width:315px;min-height:80px;margin-right:-30px;">
+            <div class="subinfo-image " style="width:355px;min-height:80px;margin-right:-30px;">
               <?=HTML::image('img/toursubimage21.png')?>
               <br class="clear" />
             </div>
