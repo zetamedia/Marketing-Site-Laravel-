@@ -111,7 +111,7 @@ function onAfter(curr, next, opts, fwd) {
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-folder">
                   <h3>Dozens of awesome templates</h3>
-                  <li>Plug and play feedback forms with 30 over dynamic templates</li>
+                  <li>Plug and play feedback forms with over 30 dynamic templates</li>
                   <!--
                   <li>Plug and play feedback forms</li>
                   <li>Personalized and courtesy follow ups</li>
