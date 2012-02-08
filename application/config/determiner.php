@@ -40,7 +40,7 @@ class Determiner {
        }
 
        //PRODUCTION
-       if($this->http_host == '36stories') {
+       if($this->http_host == '36stories.com') {
            $obj->host = 'http://36stories.com';
            $obj->db   = 'localhost';
            return $obj;
