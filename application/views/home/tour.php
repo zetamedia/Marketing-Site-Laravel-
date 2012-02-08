@@ -386,7 +386,7 @@ function onAfter(curr, next, opts, fwd) {
               <br class="clear" />
             </div>
             <div class="main-title-text">
-              <h1>Just the tip of the iceberg</h1>
+              <h1 style="width:700px;">Features to help your business grow</h1>
               <!-- <p>Your data is yours. Never ours. Export it anytime you wish. </p> --> 
               <br class="clear" />
             </div>
@@ -424,6 +424,7 @@ function onAfter(curr, next, opts, fwd) {
             <div class="subinfo-image right">
               <?=HTML::image('img/toursubimage53.png')?>
             </div>
+            <br class="clear" />
           </div>
           <br class="clear" />
           <div class="sub-info">
