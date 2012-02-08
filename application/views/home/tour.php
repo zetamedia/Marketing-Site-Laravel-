@@ -76,48 +76,61 @@ function onAfter(curr, next, opts, fwd) {
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-bubble">
                   <h3>Powerful Feedback Control</h3>
-                  <li>Publish powerful endorsements to your website with a single click.</li>
+                  <li>Publish, feature or file away feedback with a click of a button</li>
+                  <!--
                   <li>Feature endorsements that truly matter.</li>
                   <li>File negative feedback away or send it to someone else.</li>
                   <li>Respond instantly to feedback</li>
                   <li>Permission based endorsements</li>
+                  -->
                 </ul>
               </li>
               <li id="2">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-pie">
                   <h3>Complete Feedback Analytics</h3>
-                  <li>Powerful insight at a glance</li>
+                  <li>Powerful insight at a glance, and understand where your customers are facing problems in your website or business</li>
+                  <!--
                   <li>Get strategic feedback where it matters most.</li>
+                  -->
                 </ul>
               </li>
               <li id="3">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-mail">
                   <h3>Get Viral On The Social Web.</h3>
+                  <li>Market your business through word of mouth and via social media</li>
+                  <!--
                   <li>Word of mouth marketing - on steroids.</li>
                   <li>Authentic Profiles.</li>
                   <li>Show them all off in style</li>
+                  -->
                 </ul>
               </li>
               <li id="4">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-folder">
-                  <h3>Dozens of Templates</h3>
+                  <h3>Dozens of awesome templates</h3>
+                  <li>Plug and play feedback forms with 30 over dynamic templates</li>
+                  <!--
                   <li>Plug and play feedback forms</li>
                   <li>Personalized and courtesy follow ups</li>
                   <li>Over 30 dynamic templates to choose from</li>
+                  -->
                 </ul>
               </li>
               <li id="5">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-thumb">
-                  <h3>Just the tip of the iceberg</h3>
+                  <h3>Features to help your business grow</h3>
+                  <li>Designed to be simple to use, cost-effective and scalable, discover how we help your business grow hassle-free</li>
+                  <!--
                   <li>Powerful contact manager</li>
                   <li>Built to scale with your business.</li>
                   <li>Export your data anytime</li>
                   <li>No long term contracts - pay as you go</li>
                   <li>Your data is secure and safe</li>
+                  -->
                 </ul>
               </li>
             </ul>
