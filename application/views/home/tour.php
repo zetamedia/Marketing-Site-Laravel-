@@ -386,7 +386,7 @@ function onAfter(curr, next, opts, fwd) {
               <br class="clear" />
             </div>
             <div class="main-title-text">
-              <h1 style="width:700px;">Features to help your business grow</h1>
+              <h1 style="width:700px;font-size:32px;">Features to help your business grow</h1>
               <!-- <p>Your data is yours. Never ours. Export it anytime you wish. </p> --> 
               <br class="clear" />
             </div>
