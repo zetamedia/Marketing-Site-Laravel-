@@ -1,5 +1,4 @@
 <?php
-
 require_once 'determiner.php';
 $determine = new Determiner;  
 
@@ -17,7 +16,7 @@ return array(
 
 	//'url' => 'http://localhost/Marketing-Site-Laravel-/public',
 	//'url' => 'http://36stories.com',
-    'url' => $determiner->d->host,
+    'url' => $determine->d->host,
 	/*
 	|--------------------------------------------------------------------------
 	| Application Index
