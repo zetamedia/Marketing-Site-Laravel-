@@ -128,7 +128,7 @@ function onAfter(curr, next, opts, fwd) {
                     </div>
                     <div class="sub-info">
                         <div class="subinfo-text">
-                        	<h2>Publish powerful customer endorsements to your website with a single click.</h2>
+                        	<h2>Publish powerful customer endorsements to your website with a single click</h2>
                             <p>Instantly publish a positive feedback into a testimonial that displays throughout your site with a single click. </p>
 							<p>Our simple, intuitive admin panel is an absolute breeze to use – it allows you or an assigned team member to easily work through feedback to publish endorsements or to file away feedback. There's no complicated menus, no convoluted processes, no complex permissions. No HTML codes or images to worry about either. </p>
                             <p>Review your feedback and just click Publish. </p>
@@ -144,7 +144,7 @@ function onAfter(curr, next, opts, fwd) {
                         	<?=HTML::image('img/toursubimage12.png')?>
                         </div>
                         <div class="subinfo-text">
-                        	<h2>Feature endorsements that truly matter.</h2>
+                        	<h2>Feature endorsements that truly matter</h2>
                             <p>Got a recommendation from that big time CEO or a Magazine? Feature them in a prominent position on your website or arrange them in a specific order if you want.</p>
                             <p>You can feature specific endorsements or quotes in a single-feedback unit, or show a whole page. It's all possible with our wide array of themes.</p>
 							<br class="clear" />                       
@@ -208,22 +208,22 @@ function onAfter(curr, next, opts, fwd) {
                         <br class="clear" />
                     </div>
                     <div class="sub-info">
-                        <div class="subinfo-text">
-                        	<h2>Powerful insight. At a glance.</h2>
+                        <div class="subinfo-text" style="width:292px">
+                        	<h2>Powerful insight. At a glance</h2>
                             <p>What do your visitors and returning customers feel and want? With 36Stories, you get your answers quick. </p>
 							<p>Discover whether your product is overpriced, or not as feature-rich as your competitors. Are people having a problem with your site speed? Why are potential customers abandoning your shopping cart? Get out of the dark with rapid feedback with our insight dashboard.</p>
 							<br class="clear" />                       
                         </div>
-                        <div class="subinfo-image right">
-                        	<?=HTML::image('img/toursubimage21.png','',array('width'=>250))?>
+                        <div class="subinfo-image right" style="width:315px;min-height:80px;margin-right:-30px;">
+                        	<?=HTML::image('img/toursubimage21.png')?>
                             <br class="clear" />
                         </div>
                         <br class="clear" />
                         <div>
-                        	<div class="subinfo-image left" style="width:345px;min-height:80px;">
+                        	<div class="subinfo-image left" style="width:405px;min-height:80px;margin-left:-10px;">
 								<?=HTML::image('img/toursubimage22.png')?>
                             </div>
-                            <div class="subinfo-text" style="width:232px">
+                            <div class="subinfo-text" style="width:172px">
                                 <p>Fix problematic areas in your business or improve your processes. Have a simplified yet detailed insight into your customer satisfaction ratings, geographic profiles and pain points in your business. </p>
                                 <br class="clear" />                       
                             </div>
@@ -238,7 +238,7 @@ function onAfter(curr, next, opts, fwd) {
                         	<?=HTML::image('img/toursubimage23.png')?>
                         </div>
                         <div class="subinfo-text">
-                        	<h2>Get strategic feedback where it matters most.</h2>
+                        	<h2>Get strategic feedback where it matters most</h2>
 	                            <p>Place customized forms into your site at specific locations to gather feedback you want.</p>
     	                        <p>Want to collect info from your customers who have just purchased from you? Place a feedback capture form in the checkout pages to rate their buying and checkout experience.</p>
         	                    <p>Discover whether you're pricing your products or services too high…. or a little too low? Put a 'Feedback about this price' form in your product page to get accurate and quick inputs from the most valued people in your business - your customers.</p>
@@ -255,7 +255,7 @@ function onAfter(curr, next, opts, fwd) {
                             <br class="clear" />
                         </div>
                         <div class="main-title-text">
-							<h1>Get Viral On The Social Web.</h1>
+							<h1>Get Viral On The Social Web</h1>
                            <!--  <p>It simply means fewer forms to fill and a easier and faster way to give your business a powerful and authentic review.</p> -->
                             <br class="clear" />
                         </div>
@@ -263,7 +263,7 @@ function onAfter(curr, next, opts, fwd) {
                     </div>
                     <div class="sub-info">
                         <div class="subinfo-text">
-                        	<h2>Word of mouth marketing - on steroids.</h2>
+                        	<h2>Word of mouth marketing - on steroids</h2>
                             <p>It's not enough just having your endorsements listed on your website. Get people talking about your business and brand out there by being on your customer's social profiles such as Facebook and Twitter.</p>
 							<p>Every time you publish an endorsement sent by your customer via your admin panel, 36Stories sends an automated response to encourage him or her share their feedback on their favorite social networks. Freeing your brand to be spread even further through your customers' friends.</p>
 							<br class="clear" />                       
@@ -288,7 +288,7 @@ function onAfter(curr, next, opts, fwd) {
                     <div class="sub-info last">
                     	
                         <div class="subinfo-text">
-                        	<h2>Show them all off. In style.</h2>
+                        	<h2>Show them all off. In style</h2>
                             <p>There's nothing like showing your visitors your entire collection of endorsements, whether it's 50 or a hundred thousand. You can display every single one of them when visitors select 'View all'. Click ours for an example.</p>
 							<br class="clear" />                       
                         </div>
@@ -319,7 +319,7 @@ function onAfter(curr, next, opts, fwd) {
                             <p>And if you prefer - you can decide how and the best way to retrieve feedback for your business/service using your own language, designs and style.</p>
 							<br class="clear" />                       
                         </div>
-                        <div class="subinfo-image right">
+                        <div class="subinfo-image right" style="margin-top:-10px;">
                         	<?=HTML::image('img/toursubimage41.png')?>
                         </div>
                         <br class="clear" />
@@ -343,7 +343,7 @@ function onAfter(curr, next, opts, fwd) {
 							<br class="clear" />                       
                         </div>
                         <div class="subinfo-image right">
-                        	<?=HTML::image('img/toursubimage41.png')?>
+                        	<?=HTML::image('img/toursubimage43.png')?>
                         </div>
                         <br class="clear" />
                     </div>
@@ -378,7 +378,7 @@ function onAfter(curr, next, opts, fwd) {
                         	<?=HTML::image('img/toursubimage52.png')?>
                         </div>
                         <div class="subinfo-text">
-                        	<h2>Built to scale with your business.</h2>
+                        	<h2>Built to scale with your business</h2>
                             <p>Whether you're a one-man (or woman) army, or a Fortune 500 enterprise with a thousand over employees, 36Stories allows two or more co-admins to easily access and manage feedback without fuss and confusion. </p>
                             <p>It also integrates easily within your customer relationship processes to improve user satisfaction, sales and brand reputation.</p>
 							<br class="clear" />                       
@@ -406,7 +406,7 @@ function onAfter(curr, next, opts, fwd) {
 							<br class="clear" />                       
                         </div>
                         <br class="clear" />
-                    </div>v
+                    </div>
                     <div class="sub-info last">
                         <div class="subinfo-text">
                         	<h2>Your data is secure and safe</h2>
