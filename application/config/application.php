@@ -15,7 +15,7 @@ return array(
 
 	//'url' => 'http://localhost/Marketing-Site-Laravel-/public',
 	//'url' => 'http://36stories.com',
-    'url' => $determine->d->host,
+    'url' => 'http://www.36stories.com';//$determine->d->host,
 	/*
 	|--------------------------------------------------------------------------
 	| Application Index
