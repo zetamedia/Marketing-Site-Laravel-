@@ -5,7 +5,8 @@ $(document).ready(function(){
 							speed:500, 
 							timeout:0 ,
 							pause : 1,
-							easing: 'easeInOutExpo'
+							easing: 'easeInOutExpo',
+							before: onAfter
 						});
 	$('ul#menu-list').children().each(function(i){			
 
@@ -279,6 +280,7 @@ function onAfter(curr, next, opts, fwd) {
           </div>
           <br class="clear" />
         </div>
+        <!-- slide 3 -->
         <div class="container-box">
           <div class="main-title">
             <div class="main-title-image">
@@ -329,6 +331,7 @@ function onAfter(curr, next, opts, fwd) {
           </div>
           <br class="clear" />
         </div>
+        <!-- slide 4 -->
         <div class="container-box">
           <div class="main-title">
             <div class="main-title-image">
@@ -365,20 +368,79 @@ function onAfter(curr, next, opts, fwd) {
             </div>
             <br class="clear" />
           </div>
-          <div class="sub-info last">
-            <div class="subinfo-text">
+          <div class="sub-info">
+            <div class="subinfo-text left" style="width:255px">
               <h2>Over 30 dynamic templates to choose from</h2>
               <p>Choose and select over 30 different design themes and styles to suit your website. From simple quotes to fancy profile setups, our team of designers is consistently adding to our theme and style database each week - so you don't have to worry about running out of ideas.</p>
               <p>If you don't want to show your customers last names, we've got that covered - you can easily configure each theme to hide fields that you don't want to display to the public.</p>
               <br class="clear" />
             </div>
-            <div class="subinfo-image right">
+            <div class="subinfo-image right"style="width:275px">
               <?=HTML::image('img/toursubimage43.png')?>
             </div>
             <br class="clear" />
           </div>
+          <div class="sub-info">
+            <div class="subinfo-image left">
+              <?=HTML::image('img/toursubimage44.png')?>
+            </div>
+            <div class="subinfo-text">
+              <h2>Social sharing</h2>
+              <p>Let your endorsements go viral with integrated social media links. 36Stories makes it easier for others to agree and share the same experience they've had with your brand.</p>
+              <br class="clear" />
+            </div>
+            <br class="clear" />
+          </div>
+          <div class="sub-info">
+            <div class="subinfo-text" style="width:172px">
+              <h2>Show them all off</h2>
+              <p>Our plug-and-play themes allow your visitors to view hundreds, or even thousands of endorsements every single day. Visitors can scroll through feedback that's left daily on your website, increasing brand goodwill and trust.</p>
+              <br class="clear" />
+            </div>
+            <div class="subinfo-image right" style="width:405px;">
+              <?=HTML::image('img/toursubimage45.png')?>
+            </div>
+            <br class="clear" />
+          </div>
+          <div class="sub-info">
+            <div class="subinfo-image left">
+              <?=HTML::image('img/toursubimage46.png')?>
+            </div>
+            <div class="subinfo-text">
+              <h2>Authentic customer profiles</h2>
+              <p>We help your customers create authentic user profiles easy through Facebook Connect – to instantly boost credibility with your brand, without you having to lift a single line of code.</p>
+              <br class="clear" />
+            </div>
+            <br class="clear" />
+          </div>
+          <div class="sub-info last">
+            <div class="subinfo-text" style="width:255px;">
+              <h2>Easy to integrate</h2>
+              <p>Start using 36Stories on your website within minutes with a wide variety of great-looking tabs and links.</p>
+              <br class="clear" />
+            </div>
+            <div class="subinfo-image right" style="width:275px;">
+              <?=HTML::image('img/toursubimage47.png')?>
+            </div>
+            <br class="clear" />
+          </div>
           <br class="clear" />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
+        
+        <!-- content 5 -->
         <div class="container-box">
           <div class="main-title">
             <div class="main-title-image">
