@@ -339,7 +339,7 @@ function onAfter(curr, next, opts, fwd) {
               <br class="clear" />
             </div>
             <div class="main-title-text">
-              <h1>Dozens of Configurable Templates</h1>
+              <h1>Dozens of Awesome Templates</h1>
               <!-- <p>There's nothing like showing your visitors your entire collection of endorsements, whether it's 50 or a hundred thousand. You can display every single one of them when visitors select 'View all'. Click ours for an example.</p> --> 
               <br class="clear" />
             </div>
