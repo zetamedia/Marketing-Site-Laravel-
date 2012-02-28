@@ -434,10 +434,7 @@ function onAfter(curr, next, opts, fwd) {
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
+          
         </div>
         
         <!-- content 5 -->
