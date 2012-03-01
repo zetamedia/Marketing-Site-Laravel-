@@ -22,33 +22,7 @@
         	<h2>ABOUT US</h2>
             <ul>
             	<li><a href="#">Blog</a></li>
-                <li><a href="#">Press Releases</a></li>
-                <li><a href="#">Press Information</a></li>
-                <li><a href="#">Management</a></li>
-                <li><a href="#">Board of Directors</a></li>
-                <li><a href="#">Investors</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="link-block">
-        	<h2>PARTNERS</h2>
-            <ul>
-            	<li><a href="#">Developer API</a></li>
-                <li><a href="#">App Directory</a></li>
-                <li><a href="#">Affiliate Program</a></li>
-                <li><a href="#">Partner</a></li>
-                <li><a href="#">Others</a></li>
-            </ul>
-        </div>
-        <div class="link-block">
-        	<h2>SERVICES</h2>
-            <ul>
-            	<li><a href="#">Blog</a></li>
-                <li><a href="#">Press Releases</a></li>
-                <li><a href="#">Press Information</a></li>
-                <li><a href="#">Management</a></li>
-                <li><a href="#">Board of Directors</a></li>
+                <li><a href="#">The Team</a></li>
                 <li><a href="#">Investors</a></li>
                 <li><a href="#">Jobs</a></li>
                 <li><a href="#">Contact Us</a></li>
@@ -60,24 +34,56 @@
             	<li><a href="#">Help Center</a></li>
                 <li><a href="#">Community</a></li>
                 <li><a href="#">Quick Start Guide</a></li>
-                <li><a href="#">Video Tutorials</a></li>
             </ul>
         </div>
         <div class="link-block">
-        	<h2>FAQ</h2>
+        	<!--
+            <h2>PARTNERS</h2>
+            <ul>
+            	<li><a href="#">Developer API</a></li>
+                <li><a href="#">App Directory</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Partner</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+            -->
+        </div>
+        <div class="link-block">
+        	<!--
+            <h2>SERVICES</h2>
+            <ul>
+            	<li><a href="#">Blog</a></li>
+                <li><a href="#">Press Releases</a></li>
+                <li><a href="#">Press Information</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Board of Directors</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            -->
+        </div>
+        
+        
+        
+        <div class="link-block">
+        	<!--
+            <h2>FAQ</h2>
             <ul>
             	<li><a href="#">Help Center</a></li>
                 <li><a href="#">Community</a></li>
                 <li><a href="#">Quick Start Guide</a></li>
                 <li><a href="#">Video Tutorials</a></li>
             </ul>
+            -->
         </div>
+        
         <div class="contact-info">
         	<h2>CONTACT US</h2>
         	<ul>
             	<li class="telephone">1-8000-12345678</li>
                 <li class="mobile">1-8000-12345678</li>
-                <li class="email"><strong>Send Us an Email</strong></li>
+                <li class="email"><strong>Drop us an email</strong></li>
             </ul>
             <div class="bottom-logo"><?=HTML::image('img/36-storieslogo.png')?></div>
         </div>
@@ -88,16 +94,16 @@
 <div id="footerwrapper">
     <div id="footercontents">
     	<div class="copyright">
-    		<span>© 2011 36Stories. All Rights Reserved.</span>  <?=HTML::link('/tac', 'Terms')?>  | <?=HTML::link('/privacy', 'Privacy')?> | <a href="#">Site Map</a>
+    		<span>© 2011 36Stories. All Rights Reserved.</span>  <?=HTML::link('/tac', 'Terms')?>  | <?=HTML::link('/privacy', 'Privacy')?>
         </div>
         <div class="socialicons">
         	<div class="text">Stay in touch</div>
             <ul>
                 <li><?=HTML::image('img/ico-fb.png')?></li>
                 <li><?=HTML::image('img/ico-twitter.png')?></li>
-                <li><a href="#"><?=HTML::image('img/ico-tumblr.png')?></a></li>
+                <!--<li><a href="#"><?=HTML::image('img/ico-tumblr.png')?></a></li>--
                 <li><a href="#"><?=HTML::image('img/ico-youtube.png')?></a></li>
-                <li><a href="#"><?=HTML::image('img/ico-flickr.png')?></a></li>
+                <li><a href="#"><?=HTML::image('img/ico-flickr.png')?></a></li>-->
             </ul>
         </div>
         <br class="clear" />
