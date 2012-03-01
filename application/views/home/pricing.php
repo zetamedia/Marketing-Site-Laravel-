@@ -1,3 +1,4 @@
+<title><?=$title?></title>
 <!-- start title of page -->
 <div id="titlebarwrapper">
 	<div id="subtitlebarwrapper">

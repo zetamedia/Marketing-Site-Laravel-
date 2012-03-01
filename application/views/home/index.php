@@ -1,3 +1,4 @@
+<title><?=$title?></title>
 <!-- start banner -->
 <div id="mainbannerwrapper">
 	<div id="mainsubbannerwrapper">

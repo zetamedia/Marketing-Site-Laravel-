@@ -1,3 +1,4 @@
+<title><?=$title?></title>
 <script type="text/javascript">
 	
 	$(document).ready(function(){

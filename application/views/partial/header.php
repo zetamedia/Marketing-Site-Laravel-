@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <link rel="shortcut icon" href="<?=URL::to('/')?>img/favicon.png">
-<title>Welcome | 36Stories | Let your customers speak about you.</title>
 		<?=HTML::style('css/s36style.css')?> 
         <?=HTML::style('css/slider.css')?>
        

@@ -51,7 +51,8 @@ return array(
 	'GET /' => function()
 	{
         //return View::make('home.splash');
-		return View::of_layout()->partial('contents', 'home.index');
+		$title = "Welcome | 36Stories";
+		return View::of_layout()->partial('contents', 'home.index',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -59,7 +60,8 @@ return array(
 	*/
 	'GET /tour' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.tour');
+		$title = "Tour | 36Stories";
+		return View::of_layout()->partial('contents', 'home.tour',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -67,7 +69,8 @@ return array(
 	*/
 	'GET /pricing' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.pricing');
+		$title = "Pricing | 36Stories";
+		return View::of_layout()->partial('contents', 'home.pricing',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -75,7 +78,8 @@ return array(
 	*/
 	'GET /company' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.company');
+		$title = "Company | 36Stories";
+		return View::of_layout()->partial('contents', 'home.company',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -83,7 +87,8 @@ return array(
 	*/
 	'GET /tac' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.tac');
+		$title = "Terms and Conditions | 36Stories";
+		return View::of_layout()->partial('contents', 'home.tac',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -91,7 +96,8 @@ return array(
 	*/
 	'GET /privacy' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.privacy');
+		$title = "Privacy | 36Stories";
+		return View::of_layout()->partial('contents', 'home.privacy',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -99,7 +105,8 @@ return array(
 	*/
 	'GET /login' => function()
 	{
-		return View::of_layout()->partial('contents', 'home.login');
+		$title = "Login | 36Stories";
+		return View::of_layout()->partial('contents', 'home.login',array('title'=>$title));
 	},
 	
 	/*----------------
@@ -108,15 +115,16 @@ return array(
 	'GET /registration/(:any)' => function($plan)
 	{
 		$creditcard = true;
-		
+		$title = "Registration | 36Stories";	
 		return View::of_layout()->partial('contents', 'home.registration'
 			, array( 'creditcard' => $creditcard 
-					,'plan' => $plan)
+					,'plan' => $plan,'title'=>$title)
 		);
 	},
 	
 	'POST /registration/(:any)' => array('needs' => 'chargify', function($plan)
 	{	
+		$title = "Registration | 36Stories";
 	    $test = true;
 		$input = Input::get();
 		$chargify = new ChargifyModel($input);
@@ -146,7 +154,7 @@ return array(
 		Testing
 	*/
 	'GET /testmodel' => function(){
-		
+		$title = "Welcome | 36Stories";
 		$user = new UserAccount;
 		
 		print_r($user->get_user());
