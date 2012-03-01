@@ -99,7 +99,7 @@ function onAfter(curr, next, opts, fwd) {
               <li id="3">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-mail">
-                  <h3>Get Viral On The Social Web.</h3>
+                  <h3>Get Viral On The Social Web</h3>
                   <li>Market your business through word of mouth and via social media</li>
                   <!--
                   <li>Word of mouth marketing - on steroids.</li>
@@ -308,24 +308,35 @@ function onAfter(curr, next, opts, fwd) {
           </div>
           <div class="sub-info">
             <div class="subinfo-image left">
-              <?=HTML::image('img/toursubimage32.png')?>
+              <?=HTML::image('img/toursubimage44.png')?>
             </div>
-            <div class="subinfo-text" style="width:300px;padding-left:15px;">
-              <h2>Authentic Profiles</h2>
-              <p>Your customers can easily attach their personal profiles that include their current company, titles and profession to their feedback with Facebook Connect. They can control what they want to display as well. </p>
-              <p>It simply means fewer forms to fill and an easier and faster way to give your business and brand a powerful and authentic endorsement.</p>
+            <div class="subinfo-text">
+              <h2>Social sharing</h2>
+              <p>Let your endorsements go viral with integrated social media links. 36Stories makes it easier for others to agree and share the same experience they've had with your brand.</p>
               <br class="clear" />
             </div>
             <br class="clear" />
           </div>
-          <div class="sub-info last">
+          <div class="sub-info">
+            <div class="subinfo-text" style="width:300px;paddingright:15px;">
+              <h2>Build trust with authentic profiles</h2>
+              <p>Your customers can easily attach their personal profiles that include their current company, titles and profession to their feedback with Facebook Connect.</p>
+              <p>It simply means fewer forms to fill and an easier and faster way to give your business and brand a powerful and authentic endorsement.</p>
+              <br class="clear" />
+            </div>
+            <div class="subinfo-image right">
+              <?=HTML::image('img/toursubimage46.png')?>
+            </div>
+            <br class="clear" />
+          </div>
+          <div class="sub-info last">            
+            <div class="subinfo-image left">
+              <?=HTML::image('img/toursubimage33.png')?>
+            </div>
             <div class="subinfo-text">
               <h2>Show them all off in style</h2>
               <p>There's nothing like showing your visitors your entire collection of endorsements, whether it's 50 or a hundred thousand. You can display every single one of them when visitors select 'View all'. Click ours for an example.</p>
               <br class="clear" />
-            </div>
-            <div class="subinfo-image right">
-              <?=HTML::image('img/toursubimage33.png')?>
             </div>
             <br class="clear" />
           </div>
@@ -380,37 +391,18 @@ function onAfter(curr, next, opts, fwd) {
             </div>
             <br class="clear" />
           </div>
+          
           <div class="sub-info">
-            <div class="subinfo-image left">
-              <?=HTML::image('img/toursubimage44.png')?>
+            <div class="subinfo-image left" style="width:405px;">
+              <?=HTML::image('img/toursubimage45.png')?>
             </div>
-            <div class="subinfo-text">
-              <h2>Social sharing</h2>
-              <p>Let your endorsements go viral with integrated social media links. 36Stories makes it easier for others to agree and share the same experience they've had with your brand.</p>
-              <br class="clear" />
-            </div>
-            <br class="clear" />
-          </div>
-          <div class="sub-info">
+            
             <div class="subinfo-text" style="width:172px">
               <h2>Show them all off</h2>
               <p>Our plug-and-play themes allow your visitors to view hundreds, or even thousands of endorsements every single day. Visitors can scroll through feedback that's left daily on your website, increasing brand goodwill and trust.</p>
               <br class="clear" />
             </div>
-            <div class="subinfo-image right" style="width:405px;">
-              <?=HTML::image('img/toursubimage45.png')?>
-            </div>
-            <br class="clear" />
-          </div>
-          <div class="sub-info">
-            <div class="subinfo-image left">
-              <?=HTML::image('img/toursubimage46.png')?>
-            </div>
-            <div class="subinfo-text">
-              <h2>Authentic customer profiles</h2>
-              <p>We help your customers create authentic user profiles easy through Facebook Connect – to instantly boost credibility with your brand, without you having to lift a single line of code.</p>
-              <br class="clear" />
-            </div>
+            
             <br class="clear" />
           </div>
           <div class="sub-info last">
