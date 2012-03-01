@@ -1,6 +1,7 @@
 <title><?=$title?></title>
 <script type="text/javascript">
 $(document).ready(function(){
+	
 	var tour_contents = $('#container').cycle({
 							fx:'scrollVert', 
 							speed:500, 
@@ -9,6 +10,11 @@ $(document).ready(function(){
 							easing: 'easeInOutExpo',
 							before: onAfter
 						});
+	var hash = window.location.hash;
+	var int = parseInt(hash.substr(1));
+	
+	tour_contents.cycle(int);
+							
 	$('ul#menu-list').children().each(function(i){			
 
 			$(this).click(function(){

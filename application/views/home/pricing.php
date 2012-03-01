@@ -66,6 +66,10 @@
                 </div>
             </div>
             <div class="pricing-plans-shadow">
+            	<style>
+					strong a{color:#333}
+					strong a:hover{color:#444}
+				</style>
             	<p>We also offer a <strong><?=HTML::link('registration/free','free plan')?></strong>: 1 site profile, 30 published feedback and 30 contacts.</p>
             </div>
         	<h1><span>36</span>Stories is trusted by businesses of all sizes</h1>
