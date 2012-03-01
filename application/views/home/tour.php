@@ -36,7 +36,12 @@ $(document).ready(function(){
 			});
 
 		});
-
+		if(int < 0){
+			$('#1').addClass('selected');			
+		}else{
+			var liID = int+1;
+			$('#'+liID).addClass('selected');
+		}
 	});
 function onAfter(curr, next, opts, fwd) {
 	var index = opts.currSlide;
@@ -80,7 +85,7 @@ function onAfter(curr, next, opts, fwd) {
           </div>
           <div class="bar-body">
             <ul id="menu-list">
-              <li id="1" class="selected">
+              <li id="1">
                 <div class="the-arrow-right"></div>
                 <ul class="bar-ico-bubble">
                   <h3>Powerful Feedback Control</h3>
