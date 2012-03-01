@@ -156,8 +156,9 @@ function onAfter(curr, next, opts, fwd) {
           <div class="sub-info">
             <div class="subinfo-text">
               <h2>Publish powerful endorsements to your website with a single click</h2>
-              <p>Instantly publish a positive feedback into a testimonial that displays throughout your site with a single click. </p>
-              <p>Our simple, intuitive admin panel is an absolute breeze to use – it allows you or an assigned team member to easily work through feedback to publish endorsements or to file away feedback. There's no complicated menus, no convoluted processes, no complex permissions. No HTML codes or images to worry about either. </p>
+              <p>Instantly publish a positive feedback into a testimonial that displays throughout your site with a single click.</p>
+              <p>Our simple, intuitive admin panel is an absolute breeze to use – it allows you or an assigned team member to easily work through feedback to publish endorsements or to file away feedback. </p>
+              <p>No complicated menus, no convoluted processes, no HTML codes or images to worry about either.</p>
               <p>Review your feedback and just click Publish. </p>
               <br class="clear" />
             </div>
@@ -181,12 +182,14 @@ function onAfter(curr, next, opts, fwd) {
           <div class="sub-info">
             <h2 style="color:#1D3F61">File negative feedback away or send it to someone else.</h2>
             <div class="subinfo-text left" style="width:255px">
-              <p>File away negative feedback into configurable categories to follow up on them later. You can create new categories that suit your business. Whether it's a pricing issue or a technical problem, you can always refer to it quickly and easily later.</p>
+              <p>File away negative feedback into configurable categories to follow up on them later. You can create new categories that suit your business. </p>
+              <p>Whether it's a pricing issue or a technical problem, you can always refer to it quickly and easily later.</p>
               <?=HTML::image('img/toursubimage13.png')?>
               <br class="clear" />
             </div>
             <div class="subinfo-text left" style="width:275px;padding-left:45px;">
-              <p>Our Fast Forward options allow you to send feedback quickly to someone else within your company. For example – if you have a customer asking for his shipping status through our feedback prompt, you can forward it to your shipping department for rapid follow up.</p>
+              <p>Our Fast Forward options allow you to send feedback quickly to someone else within your company. </p>
+              <p>For example – if you have a customer asking for his shipping status through our feedback prompt, you can forward it to your shipping department for rapid follow up.</p>
               <?=HTML::image('img/toursubimage14.png')?>
               <br class="clear" />
             </div>
@@ -207,7 +210,8 @@ function onAfter(curr, next, opts, fwd) {
           <div class="sub-info last">
             <div class="subinfo-text">
               <h2>Permission based endorsements</h2>
-              <p>It's only polite to ask for complete consent and not to publish feedback without your user's permission. 36Stories has a permission based system where you get the green light from your customers to use their feedback before you even see it in your inbox. You'll have the relief of publishing endorsements public, knowing that your customers have already given their 'okay'.</p>
+              <p>It's only polite to ask for complete consent and not to publish feedback without your user's permission. 36Stories has a permission based system where you get the green light from your customers to use their feedback before you even see it in your inbox. </p>
+              <p>You'll have the relief of publishing endorsements public, knowing that your customers have already given their 'okay'.</p>
               <p>We also help you ask for complete permission to use their quotes in your other marketing materials (e.g. brochures). Use quotes that make the biggest impact for your business, or use the entire endorsement in its entirety. </p>
               <br class="clear" />
             </div>
@@ -262,7 +266,7 @@ function onAfter(curr, next, opts, fwd) {
               </div>
               <br class="clear" />
             </div>
-            <p style="text-align:center;font-size:12px;font-weight:bold;margin-right:-10px;">You can even find out which pages get the most amount of feedback and why in our insight dashboard.</p>
+            <p style="text-align:center;font-size:12px;font-weight:normal;margin-right:-10px;">You can even find out which pages get the most amount of feedback and why in our insight dashboard.</p>
             <br />
           </div>
           <div class="sub-info last">
@@ -374,7 +378,9 @@ function onAfter(curr, next, opts, fwd) {
             </div>
             <div class="subinfo-text">
               <h2>Personalized and courtesy follow ups</h2>
-              <p>Our built-in response systems allow you to get even closer and strengthen your relationships with your customers. Use preset templates to communicating with your users, whether it is to thank them, or send them a personalized appreciation message (or even a discount coupon).</p>
+              <p>Our built-in response systems allow you to get even closer and strengthen your relationships with your customers. </p>
+              <p>Use preset templates to communicating with your users, whether it is to thank them, or send them a personalized appreciation message (or even a discount coupon).</p>
+              
               <br class="clear" />
             </div>
             <br class="clear" />
@@ -382,7 +388,8 @@ function onAfter(curr, next, opts, fwd) {
           <div class="sub-info">
             <div class="subinfo-text left" style="width:255px">
               <h2>Over 30 dynamic templates to choose from</h2>
-              <p>Choose and select over 30 different design themes and styles to suit your website. From simple quotes to fancy profile setups, our team of designers is consistently adding to our theme and style database each week - so you don't have to worry about running out of ideas.</p>
+              <p>Choose and select over 30 different design themes and styles to suit your website.</p>
+              <p>From simple quotes to fancy profile setups, our team of designers is consistently adding to our theme and style database each week - so you don't have to worry about running out of ideas.</p>
               <p>If you don't want to show your customers last names, we've got that covered - you can easily configure each theme to hide fields that you don't want to display to the public.</p>
               <br class="clear" />
             </div>
