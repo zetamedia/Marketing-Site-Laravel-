@@ -27,7 +27,7 @@
             	<div id="nav-block">
                     <ul>
                         <li><?=HTML::link('/', 'Home')?></li>
-                        <li><?=HTML::link('/tour', 'Tour')?></li>
+                        <li><?=HTML::link('/tour#0', 'Tour')?></li>
                         <li><?=HTML::link('/pricing', 'Pricing')?></li>
 						<li><?=HTML::link('/company', 'Company')?></li>
                     </ul>
