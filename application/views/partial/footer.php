@@ -101,9 +101,11 @@
             <ul>
                 <li><?=HTML::image('img/ico-fb.png')?></li>
                 <li><?=HTML::image('img/ico-twitter.png')?></li>
-                <!--<li><a href="#"><?=HTML::image('img/ico-tumblr.png')?></a></li>--
+                <!--
+                <li><a href="#"><?=HTML::image('img/ico-tumblr.png')?></a></li>
                 <li><a href="#"><?=HTML::image('img/ico-youtube.png')?></a></li>
-                <li><a href="#"><?=HTML::image('img/ico-flickr.png')?></a></li>-->
+                <li><a href="#"><?=HTML::image('img/ico-flickr.png')?></a></li>
+                -->
             </ul>
         </div>
         <br class="clear" />
