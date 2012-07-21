@@ -6,8 +6,6 @@
 	 |------------------------------------------------------------------------
 	  Package::load('chargify');*/
  
-	
-
 return array(
 
 	/*
@@ -155,10 +153,8 @@ return array(
 	*/
 	'GET /testmodel' => function(){
 		$title = "Welcome | 36Stories";
-		$user = new UserAccount;
-		
-		print_r($user->get_user());
-		
+		$user = new UserAccount;	
+		print_r($user->get_user());		
 	}
 
 );
