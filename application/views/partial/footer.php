@@ -105,7 +105,7 @@
                 <li><a href="#"><?=HTML::image('img/ico-tumblr.png')?></a></li>
                 <li><a href="#"><?=HTML::image('img/ico-youtube.png')?></a></li>
                 <li><a href="#"><?=HTML::image('img/ico-flickr.png')?></a></li>
-                -->
+                    Dan is gay-->
             </ul>
         </div>
         <br class="clear" />
