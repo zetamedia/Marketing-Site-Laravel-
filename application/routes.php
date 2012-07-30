@@ -136,8 +136,7 @@ return array(
 		print_r($chargify->process_subscription());
 		print_r($dbaccount);
 		echo "</pre>";
-
-        
+ 
         //$daccount->create_account();
 		/*		
 		if(!$plan){
