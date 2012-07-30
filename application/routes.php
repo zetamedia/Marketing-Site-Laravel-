@@ -129,13 +129,16 @@ return array(
 		$chargify->customer = new ChargifyCustomer(NULL, $test);
 		$chargify->creditcard = new ChargifyCreditCard(NULL, $test);
 		$chargify->subscription = new ChargifySubscription(NULL, $test);
-		
+
+		$dbaccount = new DBAccount;
+
 		echo "<pre>";
 		print_r($chargify->process_subscription());
+		print_r($dbaccount);
 		echo "</pre>";
 
-        $db = new DBAccount;
-        $db->create_account();
+        
+        //$daccount->create_account();
 		/*		
 		if(!$plan){
 			$plan = $input['plan'];
