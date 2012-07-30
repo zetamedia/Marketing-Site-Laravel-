@@ -55,10 +55,7 @@ class Determiner {
            $obj->db   = 'prod-db1.c7lrkmoeb1l2.us-west-1.rds.amazonaws.com';
            return $obj;
        }
-       */
-
-
-       
+       */       
    }
 
 }
