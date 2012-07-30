@@ -133,6 +133,7 @@ return array(
 		echo "<pre>";
 		print_r($chargify->process_subscription());
 		echo "</pre>";
+
 		/*		
 		if(!$plan){
 			$plan = $input['plan'];
