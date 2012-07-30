@@ -133,14 +133,12 @@ return array(
 		echo "<pre>";
 		print_r($chargify->process_subscription());
 		echo "</pre>";
-
 		/*		
 		if(!$plan){
 			$plan = $input['plan'];
 		}
 		
 		$creditcard = $input['creditcard'];
-		
 		
 		return View::of_layout()->partial('contents', 'home.registration'
 			, array( 'creditcard' => $creditcard 
