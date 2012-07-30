@@ -133,6 +133,9 @@ return array(
 		echo "<pre>";
 		print_r($chargify->process_subscription());
 		echo "</pre>";
+
+        $db = new DBAccount;
+        $db->create_account();
 		/*		
 		if(!$plan){
 			$plan = $input['plan'];
