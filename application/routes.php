@@ -48,7 +48,6 @@ return array(
 	*/
 	'GET /' => function()
 	{
-        //return View::make('home.splash');
 		$title = "Welcome | 36Stories";
 		return View::of_layout()->partial('contents', 'home.index',array('title'=>$title));
 	},
