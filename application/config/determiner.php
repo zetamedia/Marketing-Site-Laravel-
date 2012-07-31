@@ -33,8 +33,8 @@ class Determiner {
        }
       
        //STAGING
-       if($this->http_host == 'staging.gearfish.com') {
-           $obj->host = 'http://staging.gearfish.com';
+       if($this->http_host == 'marketing.gearfish.com') {
+           $obj->host = 'http://marketing.gearfish.com';
            $obj->db   = 'localhost';
            return $obj;
        }
