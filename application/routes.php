@@ -124,23 +124,22 @@ return array(
 	},
 	
 	'POST /create_account' => array('needs' => 'chargify', 'do' => function() {	
+
 		$input = Input::get();
         Helpers::dump($input);
 
 		//$title = "Registration | 36Stories";
 	    $test = true;
-		$input = Input::get();
+        /*
 		$chargify = new ChargifyModel($input);
 		$chargify->customer = new ChargifyCustomer(NULL, $test);
 		$chargify->creditcard = new ChargifyCreditCard(NULL, $test);
 		$chargify->subscription = new ChargifySubscription(NULL, $test);
+		Helpers::dump($chargify->process_subscription());
+        */
 
 		$dbaccount = new DBAccount;
-
-		echo "<pre>";
-		Helpers::dump($chargify->process_subscription());
-		Helpers::dump($dbaccount);
-		echo "</pre>";
+		Helpers::dump($dbaccount->company($input['company']));
  
         //$daccount->create_account();
         /* 
