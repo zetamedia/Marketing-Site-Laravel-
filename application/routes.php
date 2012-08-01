@@ -125,7 +125,7 @@ return array(
 	
 	'POST /create_account' => array('needs' => 'chargify', 'do' => function() {	
 		$input = Input::get();
-        print_r($input);
+        Helpers::dumpp($input);
 
 		//$title = "Registration | 36Stories";
 	    $test = true;
@@ -138,8 +138,8 @@ return array(
 		$dbaccount = new DBAccount;
 
 		echo "<pre>";
-		print_r($chargify->process_subscription());
-		print_r($dbaccount);
+		Helpers::dump($chargify->process_subscription());
+		Helpers::dump($dbaccount);
 		echo "</pre>";
  
         //$daccount->create_account();
