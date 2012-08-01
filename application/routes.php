@@ -46,8 +46,8 @@ return array(
 	/*----------------
 		Home Page
 	*/
-	'GET /' => function()
-	{
+	'GET /' => function() {
+        print_r($_GET);
 		$title = "Welcome | 36Stories";
 		return View::of_layout()->partial('contents', 'home.index',array('title'=>$title));
 	},
