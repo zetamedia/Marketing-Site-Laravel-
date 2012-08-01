@@ -158,9 +158,8 @@ return array(
 		Testing
 	*/
 	'GET /testmodel' => function(){
-		$title = "Welcome | 36Stories";
-		$user = new UserAccount;	
-		print_r($user->get_user());		
+		$user = new DBAccount;	
+		print_r($user);		
 	}
 
 );
