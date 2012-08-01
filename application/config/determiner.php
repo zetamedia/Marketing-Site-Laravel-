@@ -39,6 +39,13 @@ class Determiner {
            return $obj;
        }
 
+       //Mathew STAGING
+       if($this->http_host == 'mathew-marketing.gearfish.com') {
+           $obj->host = 'http://mathew-marketing.gearfish.com';
+           $obj->db   = 'localhost';
+           return $obj;
+       }
+
        //PRODUCTION
        if($this->http_host == '36stories.com' || $this->http_host == 'www.36stories.com' || $this->http_host == 'beta.36stories.com') {
            $obj->host = 'http://36stories.com';
