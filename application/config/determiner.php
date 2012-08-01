@@ -13,7 +13,7 @@ class Determiner {
 
        $obj = new StdClass; 
  
-       //STAGING
+       //Master STAGING
        if($this->http_host == 'marketing.gearfish.com') {
            $obj->host = 'http://marketing.gearfish.com';
            $obj->db   = 'localhost';
