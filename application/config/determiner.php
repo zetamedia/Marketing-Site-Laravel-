@@ -12,26 +12,7 @@ class Determiner {
    public function _host() {
 
        $obj = new StdClass; 
-
-       if($this->http_host == 'dev.36stories.localhost') {
-           $obj->host =  'http://dev.36stories.localhost';    
-           $obj->db   = 'localhost';
-           return $obj;
-       }
-
-       if($this->http_host == 'localhost') {
-           $obj->host = 'http://localhost/Marketing-Site-Laravel-/public';
-           $obj->db   = 'localhost';
-		   return $obj;		   
-       }
-	   
-       //DEV
-       if($this->http_host == 'dev.gearfish.com') {
-           $obj->host = 'http://dev.gearfish.com';     
-           $obj->db   = 'localhost';
-           return $obj;
-       }
-      
+ 
        //STAGING
        if($this->http_host == 'marketing.gearfish.com') {
            $obj->host = 'http://marketing.gearfish.com';
