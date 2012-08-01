@@ -131,15 +131,15 @@ return array(
         Helpers::dump($input);
 
 		//$title = "Registration | 36Stories";
-	    $test = true;
         /*
+	    $test = true;
 		$chargify = new ChargifyModel($input);
 		$chargify->customer = new ChargifyCustomer(NULL, $test);
 		$chargify->creditcard = new ChargifyCreditCard(NULL, $test);
 		$chargify->subscription = new ChargifySubscription(NULL, $test);
 		Helpers::dump($chargify->process_subscription());
         */
-
+        //TODO: consider using an 3rd party api service for this.
 		$dbaccount = new DBAccount;
 		Helpers::dump($dbaccount->company($input['company']));
  
