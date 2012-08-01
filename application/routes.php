@@ -119,10 +119,15 @@ return array(
 		);
 	},
 	
-	'POST /create_account' => array('needs' => 'chargify', 'do' => function() {	
+	'POST /create_account' => function() { 
 		$input = Input::get();
         print_r($input);
-        /*
+    },
+    
+    /*array('needs' => 'chargify', 'do' => function() {	
+		$input = Input::get();
+        print_r($input);
+
 		$title = "Registration | 36Stories";
 	    $test = true;
 		$input = Input::get();
@@ -137,10 +142,10 @@ return array(
 		print_r($chargify->process_subscription());
 		print_r($dbaccount);
 		echo "</pre>";
-        */
+
  
         //$daccount->create_account();
-		/*		
+
 		if(!$plan){
 			$plan = $input['plan'];
 		}
@@ -151,8 +156,9 @@ return array(
 			, array( 'creditcard' => $creditcard 
 					,'plan' => $plan)
 		);
-		*/		
+
 	}),
+    */
 	
 	/*----------------
 		Testing
