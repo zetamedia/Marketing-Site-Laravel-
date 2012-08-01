@@ -119,8 +119,10 @@ return array(
 		);
 	},
 	
-	'POST /registration/(:any)' => array('needs' => 'chargify', function($plan)
-	{	
+	'POST /registration/(:any)' => array('needs' => 'chargify', function($plan) {	
+		$input = Input::get();
+        print_r($input);
+        /*
 		$title = "Registration | 36Stories";
 	    $test = true;
 		$input = Input::get();
@@ -135,6 +137,7 @@ return array(
 		print_r($chargify->process_subscription());
 		print_r($dbaccount);
 		echo "</pre>";
+        */
  
         //$daccount->create_account();
 		/*		
