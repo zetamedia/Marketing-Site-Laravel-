@@ -262,7 +262,7 @@
                     ?>
                     <br /><br />                        
                 </div>
-            	<?=Form::open('registration/create_account', 'POST' /*, array('onsubmit'=>'return validate_form()')*/)?>
+            	<?=Form::open('create_account', 'POST' /*, array('onsubmit'=>'return validate_form()')*/)?>
                 <input type="hidden" name="plan" value="<?=$plan?>" />
             	<div class="leftcontentblock">
                 	<h2><span>1.</span> Create your <span>36</span>Stories Account</h2>
