@@ -113,14 +113,14 @@ return array(
 	/*----------------
 		Registration Page
 	*/
-	'GET /registration/(:any)' => function($plan)
-	{
+	'GET /registration/(:any)' => function($plan) {
 		$creditcard = true;
 		$title = "Registration | 36Stories";	
 		return View::of_layout()->partial('contents', 'home.registration'
-			, array( 'creditcard' => $creditcard 
-					,'plan' => $plan,'title'=>$title)
-		);
+			, array(  'creditcard' => $creditcard  
+                    , 'country' => DB::Table('Country', 'master')->order_by('name')->get()
+					, 'plan' => $plan,'title'=>$title
+              ));
 	},
 	
 	'POST /create_account' => array('needs' => 'chargify', 'do' => function() {	

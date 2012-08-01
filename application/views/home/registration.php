@@ -379,10 +379,12 @@
                         </tr>
                         <tr><td class="label">Billing Country : </td>
                         	<td>
-								<?=Form::select('billingcountry' , array( '01' => 'Philippines', 
-																		  '02' => 'United States')
-																  , isset($_POST['billingcountry']) ? $_POST['billingcountry'] : '01' 
-																  , array('class' => 'reg-select medium'));?>
+                                <select name="billingcountry" class="reg-select medium" title="Country">
+                                    <option>Country</option>
+                                    <?foreach($country as $countries):?>
+                                        <option value="<?=$countries->code?>"><?=$countries->name?></option>
+                                    <?endforeach?>         
+                                </select> 
                             </td>
                         </tr>
                         <tr><td class="label">Billing ZIP : </td>
