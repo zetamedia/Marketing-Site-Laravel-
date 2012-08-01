@@ -19,7 +19,7 @@
 	<div id="headersubwrapper">
     	<div id="headercontent">
         	<div id="mainlogo">
-            <a href="index.php">
+            <a href="/">
             	<?=HTML::image('img/36-storieslogo.png')?>
             </a>
             </div>
