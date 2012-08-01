@@ -19,6 +19,8 @@ return array(
 	*/
     'S36Auth' => 'S36Auth\\S36Auth',
     'S36DataObject' => 'S36DataObject\\S36DataObject',
+    'Helpers' => 'Helpers\\Helpers',
+    'PostMark' => 'PostMark\\PostMark',
 	'Asset' => 'System\\Asset',
 	'Auth' => 'System\\Auth',
 	'Benchmark' => 'System\\Benchmark',
