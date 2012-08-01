@@ -125,7 +125,7 @@ return array(
 	
 	'POST /create_account' => array('needs' => 'chargify', 'do' => function() {	
 		$input = Input::get();
-        Helpers::dumpp($input);
+        Helpers::dump($input);
 
 		//$title = "Registration | 36Stories";
 	    $test = true;
