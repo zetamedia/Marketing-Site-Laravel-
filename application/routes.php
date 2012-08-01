@@ -119,7 +119,7 @@ return array(
 		);
 	},
 	
-	'POST /registration/create_account' => array('needs' => 'chargify', function($plan) {	
+	'POST /registration/create_account' => array('needs' => 'chargify', 'do' => function($plan) {	
 		$input = Input::get();
         print_r($input);
         /*
