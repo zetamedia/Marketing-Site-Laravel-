@@ -129,8 +129,8 @@ return array(
         Helpers::dump($input);
 
 		//$title = "Registration | 36Stories";
-	    $test = true;
         /*
+	    $test = true;
 		$chargify = new ChargifyModel($input);
 		$chargify->customer = new ChargifyCustomer(NULL, $test);
 		$chargify->creditcard = new ChargifyCreditCard(NULL, $test);
