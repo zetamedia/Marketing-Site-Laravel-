@@ -47,9 +47,9 @@ return array(
 		Home Page
 	*/
 	'GET /' => function() {
-            $sub = $_SERVER['HTTP_HOST'];
-            $parsed_url = parse_url($sub);
-            $host = explode('.', $parsed_url['path']);
+        $sub = $_SERVER['HTTP_HOST'];
+        $parsed_url = parse_url($sub);
+        $host = explode('.', $parsed_url['path']);
 		/*
 		print_r($host[0]);
 		print_r($_GET);

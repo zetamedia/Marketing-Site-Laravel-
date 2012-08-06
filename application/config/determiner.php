@@ -22,7 +22,7 @@ class Determiner {
 
        //Mathew STAGING
        if($this->http_host == 'mathew-marketing.gearfish.com') {
-           $obj->host = 'http://mathew-marketing.gearfish.com';
+           $obj->host = 'https://mathew-marketing.gearfish.com';
            $obj->db   = 'localhost';
            return $obj;
        }
