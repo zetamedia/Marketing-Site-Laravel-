@@ -137,7 +137,7 @@ return array(
 		$chargify->subscription = new ChargifySubscription(NULL, $test);
 		Helpers::dump($chargify->process_subscription());
         */
-
+        //TODO: consider using an 3rd party api service for this.
 		$dbaccount = new DBAccount;
 		Helpers::dump($dbaccount->company($input['company']));
  
