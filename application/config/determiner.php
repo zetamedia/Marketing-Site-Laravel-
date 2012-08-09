@@ -15,7 +15,7 @@ class Determiner {
  
        //Master STAGING
        if($this->http_host == 'marketing.gearfish.com') {
-           $obj->host = 'http://marketing.gearfish.com';
+           $obj->host = 'https://marketing.gearfish.com';
            $obj->db   = 'localhost';
            return $obj;
        }
@@ -29,14 +29,14 @@ class Determiner {
 
        //Kennwel STAGING
        if($this->http_host == 'kennwel-marketing.gearfish.com') {
-           $obj->host = 'http://kennwel-marketing.gearfish.com';
+           $obj->host = 'https://kennwel-marketing.gearfish.com';
            $obj->db   = 'localhost';
            return $obj;
        }
 
        //PRODUCTION
        if($this->http_host == '36stories.com' || $this->http_host == 'www.36stories.com' || $this->http_host == 'beta.36stories.com') {
-           $obj->host = 'http://36stories.com';
+           $obj->host = 'https://36stories.com';
            $obj->db   = 'localhost';
            return $obj;
        }
